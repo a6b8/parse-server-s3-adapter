@@ -140,11 +140,11 @@ var S3Adapter = require('@parse/s3-files-adapter');
 var s3Options = {
   "bucket": "my_bucket",
   // optional:
-  "region": 'us-east-1', // default value
-  "bucketPrefix": '', // default value
+  "region": "us-east-1", // default value
+  "bucketPrefix": "", // default value
   "directAccess": false, // default value
   "baseUrl": null // default value
-  "signatureVersion": 'v4', // default value
+  "signatureVersion": "v4", // default value
   "globalCacheControl": null // default value. Or 'public, max-age=86400' for 24 hrs Cache-Control
 }
 
